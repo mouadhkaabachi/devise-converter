@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/devise-converter/static/css/main.ee40d301.css",
+    "main.js": "/devise-converter/static/js/main.ed795de2.js",
+    "index.html": "/devise-converter/index.html",
+    "main.ee40d301.css.map": "/devise-converter/static/css/main.ee40d301.css.map",
+    "main.ed795de2.js.map": "/devise-converter/static/js/main.ed795de2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee40d301.css",
+    "static/js/main.ed795de2.js"
+  ]
+}
