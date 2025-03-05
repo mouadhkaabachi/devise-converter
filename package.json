@@ -1,4 +1,5 @@
 {
+  "homepage": "https://mouadhkaabachi.github.io/devise-converter",
   "name": "currency-converter",
   "version": "1.0.0",
   "description": "A currency converter app with dynamic exchange rates between EUR and USD.",
@@ -9,13 +10,16 @@
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "react-refresh": "^0.14.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
